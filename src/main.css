@@ -116,24 +116,20 @@ section.intro > .description {
     flex-direction: column;
 }
 
-picture.projectCover {
+.projectCover > picture > img {
+    width: 100%;
     position: relative;
     transition: 0.3s ease-in-out;
     transition-property: transform;
-    cursor: pointer;
-}
-
-picture.projectCover > img {
-    width: 100%;
     border-radius: 8px;
     overflow: hidden;
 }
 
-picture.projectCover:hover {
+.projectCover:hover > picture > img {
     transform: scale(1.01);
 }
 
-picture.projectCover:active {
+.projectCover:active > picture > img {
     transform: scale(0.99);
 }
 
