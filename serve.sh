@@ -1,1 +1,0 @@
-npx parcel ./public/index.html --port 9401 --open
